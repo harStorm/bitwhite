@@ -1,0 +1,25 @@
+.bw-clients {
+    background: #FAFAFA;
+    padding-top: 20vh;
+    position: relative;
+    margin-top: -20vh;
+    z-index: -1;
+}
+.bw-clients::after {
+    content: "";
+    border-bottom: 20vh solid transparent;
+    border-right: 100vw solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bw-clients__slider--wrapper {
+    padding: 80px 0 50px;
+}
+.bw-clients__slider-image {
+    margin-bottom: 50px;
+}
+.bw-clients__slider-image:nth-child(3n-1) {
+    margin-left: auto;
+    margin-right: auto;
+}

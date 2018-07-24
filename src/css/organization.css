@@ -1,0 +1,62 @@
+.bw-organization {
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+    .bw-organization__member {
+        padding-top: 65px;
+        position: relative;
+    }
+    .bw-organization__member::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        left: 50%;
+        height: 65px;
+        margin-left: -1px;
+        background: #F2F2F2;
+        top: 0;
+    }
+        .bw-organization__member-name {
+            border: 2px solid #F2F2F2;
+            border-radius: 7px;
+            height: 40px;
+            line-height: 36px;
+            padding: 0 10px;
+            display: inline-block;
+        }
+        .bw-organization__member-icon {
+            display: block;
+            margin: 0 auto 15px;
+            background: #F2F2F2;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+        }
+    .bw-organization__member.bw-organization__member--without-border {
+        padding-top: 0;
+    }
+        .bw-organization__member.bw-organization__member--without-border::before {
+            display: none
+        }
+    .bw-organization__member--horizontal-border {
+        margin-bottom: -95px;
+    }
+        .bw-organization__member--horizontal-border::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            top: 105px;
+            left: 95px;
+            right: 95px;
+            background: #F2F2F2;
+        }
+
+    .bw-organization .bw-row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .bw-organization .bw-col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }

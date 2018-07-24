@@ -1,0 +1,17 @@
+.bw-mask-group {
+    padding-top: 100px;
+    margin-bottom: -50px;
+}
+    .bw-mask-group .bw-row {
+        height: 450px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .bw-mask-group__image {
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }

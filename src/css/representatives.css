@@ -1,0 +1,45 @@
+.bw-representatives {
+    margin-top: 126px;
+}
+    .bw-representatives__member {
+        min-height: 290px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .bw-representatives__members {
+        margin-top: 40px;
+    }
+    .bw-representatives__members-info {
+        display: none;
+    }
+    .bw-representatives__name {
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 16px;
+        color: #fff;
+        margin: 35px 0 5px;
+    }
+        .bw-representatives__name + .bw-text {
+            margin-bottom: 15px;
+        }
+    .bw-representatives .bw-row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .bw-representatives .bw-col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+.bw-social-media__linkedin {
+    background: url(../img/icon-in.png);
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+.bw-social-media__email {
+    background: url(../img/icon-email.png);
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    position: relative;
+}

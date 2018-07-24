@@ -1,0 +1,36 @@
+.bw-settlements-block {
+    text-align: center;
+    margin-top: 40px;
+}
+    .bw-settlements-blocks--wrapper {
+        background: #FAFAFA;
+        position: relative;
+        padding: 100px 0 30px;
+    }
+        .bw-settlements-blocks--wrapper::before {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            z-index: -1;
+            border-top: 50vh solid transparent;
+            border-right: 100vw solid #FAFAFA;
+        }
+    .bw-settlements-block .bw-text {
+        text-align: left;
+    }
+    .bw-settlements-block__title {
+        line-height: 22px;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .bw-settlements-block__image {
+        vertical-align: middle
+    }
+        .bw-settlements-block__image--wrapper {
+            margin-bottom: 18px;
+            height: 130px;
+            line-height: 130px;
+        }

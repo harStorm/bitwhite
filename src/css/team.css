@@ -1,0 +1,24 @@
+.bw-team {
+    
+}
+    .bw-team__member {
+        min-height: 320px;
+    }
+    .bw-team__members {
+        margin-top: 80px;
+    }
+    .bw-team__name {
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 16px;
+        color: #fff;
+        margin: 15px 0 20px;
+    }
+    .bw-team .bw-row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .bw-team .bw-col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }

@@ -1,0 +1,16 @@
+.bw-app-image {
+    overflow: hidden;
+}
+    .bw-app-image .bw-row {
+        height: 450px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .bw-app-image__image {
+        position: absolute;
+        left: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }

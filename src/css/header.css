@@ -1,0 +1,43 @@
+.bw-header {
+    background: linear-gradient(127.49deg, #6E4E92 12.7%, #320763 87.3%);
+    height: 133vh;
+    position: relative;
+    margin-bottom: -33vh;
+}
+    .bw-header::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 50vh solid transparent;
+        border-left: 100vw solid #fff;
+    }
+    .bw-header__title {
+        line-height: 40px;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+        .bw-header__title span {
+            font-weight: 100;
+        }
+
+        .bw-header__title--wrapper {
+            text-align: center;
+            margin: 0 40px;
+            color: #fff;
+            position: absolute;
+            top: 40vh;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+        }
+            .bw-header__title--wrapper .bw-button {
+                margin: 0 10px;
+            }
+
+    .bw-header__title-sub {
+        font-weight: 100;
+        line-height: 30px;
+        font-size: 18px;
+        margin: 0 50px 50px;
+    }   

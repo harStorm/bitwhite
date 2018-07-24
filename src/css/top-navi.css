@@ -1,0 +1,43 @@
+.bw-top-navi {
+    float: right;
+}    
+    .bw-top-navi--wrapper {
+        background: rgba(234, 234, 234, 0.05);
+        height: 70px;
+    }
+
+    .bw-top-navi__element {
+        list-style: none;
+        float: left;
+        height: 70px;
+        line-height: 70px;
+        margin: 0 15px;
+        position: relative;
+    }
+        .bw-top-navi__element::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            opacity: 0;
+            transform: translateX(-50%);
+            transition: all 0.3s ease;
+        }
+            .bw-top-navi__element:hover::before,
+            .bw-top-navi__element.active::before {
+                opacity: 1;
+                width: 100%;
+            }
+
+        .bw-top-navi__element--without-hover::before {
+            display: none;
+        }
+
+        .bw-top-navi__element-link {
+            font-size: 12px;
+            text-decoration: none;
+            color: #fff;
+        }
